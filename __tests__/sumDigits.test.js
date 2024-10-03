@@ -1,4 +1,4 @@
-const sumDigits = require('../katas/sum-digits');
+const sumDigits = require("../katas/sumDigits");
 
 // Tests for sumDigits
 
