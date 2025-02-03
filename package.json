@@ -1,0 +1,24 @@
+{
+  "name": "fun-pairing-katas",
+  "version": "1.0.0",
+  "description": "Please find the instructions for this repo [here](https://l2c.northcoders.com/courses/fun/pairing-katas-day-1) for Day 1 of the sprint, and [here](https://l2c.northcoders.com/courses/fun/pairing-katas-day-2) for Day 2 of the sprint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssh1992/fun-pairing-katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssh1992/fun-pairing-katas/issues"
+  },
+  "homepage": "https://github.com/ssh1992/fun-pairing-katas#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+  
+}
