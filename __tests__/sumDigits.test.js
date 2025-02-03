@@ -1,16 +1,41 @@
-const sumDigits = require("../katas/sumDigits");
+const sumdigits = require("../katas/day-1/sumDigits.js");
 
 // Tests for sumDigits
 describe("sumDigits", () => {
-  test("return 0 when there are no numbers passed")=>{
+  test("returns the input number when passed a single digit number",() => {
     //arrange
     const expected = 0
+    const expected2 = 9
     //act
-    const actual = sumDigits(0)
+    const actual = sumdigits(0)
+    const actual2 = sumdigits(9)
     //assert 
     expect(actual).toBe(expected)
-  }
+    expect(actual2).toBe(expected2)
+  } )
+ test("returns a single number when passed a double digit number",() => {
+  //arrange
+  const expected = 6
+ 
+  //act
+  const actual = sumdigits(15)
+  
+  //assert 
+  expect(actual).toBe(expected)
+  
+} )
+test("return a single number when passed a decimal", () => {
+//arrange
+const expected = 8
+ 
+//act
+const actual = sumdigits(1.25)
+
+//assert 
+expect(actual).toBe(expected)
+
 })
+ })
 /*
   TEST 1 - sumDigits returns the input number when passed a single digit number
   This test has two ASSERTIONS being made
