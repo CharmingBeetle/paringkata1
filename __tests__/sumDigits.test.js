@@ -1,7 +1,16 @@
 const sumDigits = require("../katas/sumDigits");
 
 // Tests for sumDigits
-
+describe("sumDigits", () => {
+  test("return 0 when there are no numbers passed")=>{
+    //arrange
+    const expected = 0
+    //act
+    const actual = sumDigits(0)
+    //assert 
+    expect(actual).toBe(expected)
+  }
+})
 /*
   TEST 1 - sumDigits returns the input number when passed a single digit number
   This test has two ASSERTIONS being made
