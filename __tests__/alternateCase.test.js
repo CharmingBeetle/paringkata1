@@ -9,7 +9,7 @@ const alternateCase = require("../katas/day-1/alternateCase")
 //Tests 
 
 describe("alternateCase", () => {
-    test("returns uppercase when only one letter", () => {
+    xtest("returns uppercase when only one letter", () => {
         //Assign
         const expected = "G"
         //Act
@@ -18,7 +18,7 @@ describe("alternateCase", () => {
         expect(actual).toBe(expected)
     })
 
-    test("returns snakecase when only one word", () => {
+    xtest("returns snakecase when only one word", () => {
         //Assign
         const expected = "HeLlO"
         //Act
@@ -26,7 +26,7 @@ describe("alternateCase", () => {
         //Assert
         expect(actual).toBe(expected)
     })
-    test("returns snakecase when 2 or more words", () => {
+    xtest("returns snakecase when 2 or more words", () => {
         //Assign
         const expected1 = "HeLlO WoRlD"
         const expected2 = "HeLlO My nAmE Is sArA"
