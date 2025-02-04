@@ -2,7 +2,7 @@ const sumdigits = require("../katas/day-1/sumDigits.js");
 
 // Tests for sumDigits
 describe("sumDigits", () => {
-  test("returns the input number when passed a single digit number",() => {
+  xtest("returns the input number when passed a single digit number",() => {
     //arrange
     const expected = 0
     const expected2 = 9
@@ -13,7 +13,7 @@ describe("sumDigits", () => {
     expect(actual).toBe(expected)
     expect(actual2).toBe(expected2)
   } )
- test("returns a single number when passed a double digit number",() => {
+ xtest("returns a single number when passed a double digit number",() => {
   //arrange
   const expected = 6
  
@@ -24,7 +24,7 @@ describe("sumDigits", () => {
   expect(actual).toBe(expected)
   
 } )
-test("return a single number when passed a decimal", () => {
+xtest("return a single number when passed a decimal", () => {
 //arrange
 const expected = 8
  

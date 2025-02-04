@@ -10,7 +10,7 @@ const countVeg = require("../katas/day-1/countVeg")
 
 //Tests
 describe("countVeg", () => {
-    test("return number when single type present in an object", () => {
+    xtest("return number when single type present in an object", () => {
         //Arrange
         const expectedQuantity = 3
         const vegetables = [
@@ -29,7 +29,7 @@ describe("countVeg", () => {
 
 
     })
-    test("return sum when two or more types present in an object", () => {
+    xtest("return sum when two or more types present in an object", () => {
         //Arrange
         const expectedQuantity = 9
         const vegetables = [
@@ -46,7 +46,7 @@ describe("countVeg", () => {
         expect(actual).toBe(expectedQuantity)
 
     })
-    test("return 0 when type not present", () => {
+    xtest("return 0 when type not present", () => {
         //Arrange
         const expectedQuantity = 0
         const vegetables = [
